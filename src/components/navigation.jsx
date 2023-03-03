@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import {BsPersonCircle} from 'react-icons/bs'
 
 export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,9 +31,11 @@ export const Navigation = () => {
           <a href="/appointments">Apointments</a>
         </li>
         <li>
-          <a href="/profile">Profile</a>
+          <a href="/profile"><BsPersonCircle/></a>
         </li>
+        
       </ul>
+      
     </div>
   );
 };
