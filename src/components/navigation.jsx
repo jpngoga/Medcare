@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import {BsPersonCircle} from 'react-icons/bs'
-
+import { NavLink } from "react-router-dom";
 export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -14,28 +13,39 @@ export const Navigation = () => {
       <button className="toggle-button" onClick={handleToggle}>
         {isOpen ? <FaTimes /> : <FaBars />}
       </button>
+      <h5 style={{ color: " #43D5CB" }}>Health Savy</h5>
       <ul className={`menu ${isOpen ? "open" : ""}`}>
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li>
-          <a href="/hospital">Hospitals</a>
-        </li>
-        <li>
-          <a href="/pharmacy">Pharmacy</a>
-        </li>
-        <li>
-          <a href="/nursary">Nursary</a>
-        </li>
-        <li>
-          <a href="/appointments">Apointments</a>
-        </li>
-        <li>
-          <a href="/profile"><BsPersonCircle/></a>
-        </li>
-        
+        <NavLink to="/">
+          <li>
+            <a href="/">Home</a>
+          </li>
+        </NavLink>
+        <NavLink to="/hospital">
+          <li>
+            <a href="">Hospitals</a>
+          </li>
+        </NavLink>
+        <NavLink to="/pharmacy">
+          <li>
+            <a href="">Pharmacy</a>
+          </li>
+        </NavLink>
+        <NavLink to="/nursary">
+          <li>
+            <a href="">Nursary</a>
+          </li>
+        </NavLink>
+        <NavLink to="/appointments">
+          <li>
+            <a href="">Appointments</a>
+          </li>
+        </NavLink>
+        <NavLink to="/profile">
+          <li>
+            <a href="/">Profile</a>
+          </li>
+        </NavLink>
       </ul>
-      
     </div>
   );
 };

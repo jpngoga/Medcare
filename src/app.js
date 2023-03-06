@@ -1,31 +1,23 @@
 import React from "react";
-import Hero from "./components/hero";
-import { Navigation } from "./components/navigation";
-import { Hospital } from "./components/Hospital";
-import { Route, Routes } from "react-router";
+import Hero from "./components/hero.jsx";
+import ImageSlider from "./components/imageSlider.jsx";
+import { Navigation } from "./components/navigation.jsx";
 import Landing from "./components/landing";
+import { Route, Routes } from "react-router-dom";
+import "animate.css";
+
+import Create from "./components/create.jsx";
+import Pharmacy from "./components/pharmacy.jsx";
+import Hospital from "./components/hospital";
 import Nursary from "./components/nursary";
 import Appointments from "./components/appointments";
-import Profile from "./components/Profile";
-import Create from "./components/Create";
-import Login from "./components/Login";
-
-
-import Pharmacy from "./components/pharmacy.jsx";
-
-// import { useRoutes } from "react-router-dom";
-// import Themeroutes from "./routes/Router";
-
-
+import Profile from "./components/profile";
+import Login from "./components/login";
 const App = () => {
-  // const routing = useRoutes(Themeroutes);
   return (
     <>
-      {/* <div className="dark">{routing}</div>; */}
-      <Navigation /> 
+      <Navigation />
       <Routes>
-        
-      
         <Route path="/" element={<Landing />} />
         <Route path="/pharmacy" element={<Pharmacy />} />
         <Route path="/hospital" element={<Hospital />} />
@@ -33,9 +25,7 @@ const App = () => {
         <Route path="/appointments" element={<Appointments />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/profile/login" element={<Login />} />
-        <Route path="/profile/create" element={<Create />} />
       </Routes>
-     
     </>
   );
 };
