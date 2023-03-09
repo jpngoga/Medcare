@@ -375,16 +375,18 @@ margin-left: 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap:60px;
+  gap:170px;
   align-items:center;
   background-color: #070425;
   color:#fff;
   /* padding-left: 30px; */
-  padding: 20px 0px 20px 40px;
+  padding: 20px 20px 20px 80px;
+  width: 1424px;
+  max-width: 1448px;
 }
 .hosp-footer-block{
   width:300px;
-  margin:0;
+
   
 }
 .hosp-footer-block h4{

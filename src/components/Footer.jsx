@@ -9,6 +9,7 @@ import { AiOutlineTwitter } from "react-icons/ai";
 import { FaFacebookF } from "react-icons/fa";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
+import '../components/footer.css'
 
 function Footer() {
   return (
@@ -17,21 +18,27 @@ function Footer() {
         <div className="hosp-footer-block">
           <h4>
             <FaNotesMedical />
-            Mediclinic
+            Health Savy
           </h4>
 
           <p style={{ paddingLeft: "5px", fontSize: "12px" }}>
             lorem ut wisi wemin veniam, quis laore nostrud exterci tation ilm
             hedi corper turrre sucript laboristsi duis ,lorem ut wisi wemin
-            veniam, quis laore nostrud exterci tation ilm hedi corper turrre
-            sucript laboristsi duis{" "}
+            hedi corper turrre sucript laboristsi duis ,lorem ut wisi wemin
+           {" "}
           </p>
+   
+         
+        </div>
+        <div className="hosp-footer-block" style={{paddingLeft:50}} >
+          <h5>Info</h5>
           <div
             style={{
               display: "flex",
               flexDirection: "row",
               flexWrap: "wrap",
-              gap: "4px",
+              gap: "5px",textAlign:"center"
+              
             }}
           >
             <div
@@ -39,7 +46,7 @@ function Footer() {
                 display: "flex",
                 flexDirection: "column",
                 flexWrap: "wrap",
-                gap: "25px",
+                gap: "14px",
                 marginTop: "3px",
                 paddingLeft: "5px",
               }}
@@ -48,12 +55,17 @@ function Footer() {
               <HiPhone />
               <FiMail />
             </div>
-            <div>
+            <div style={{fontSize:"11px",textAlign:"center"}}>
               <p>Street 1100 Helsinki Finland</p>
               <p>(+123) 1123 4567</p>
               <p>mediclinic@godein</p>
             </div>
-            <div
+           
+          </div>
+        </div>
+        <div className="hosp-footer-block">
+          <h5>Social Medial</h5>
+          <div
               style={{
                 display: "flex",
                 flexDirection: "row",
@@ -68,107 +80,13 @@ function Footer() {
               <AiFillLinkedin />
               <AiOutlineInstagram />
             </div>
-          </div>
         </div>
-        <div className="hosp-footer-block" style={{ width: "220px" }}>
-          <h5>Latest News</h5>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              flexWrap: "wrap",
-              gap: "4px",
-            }}
-          >
-            <img src={hospital} alt="imageNotFound" style={{ width: "80px" }} />
-            <div>
-              <h6> Hero Hospital</h6>
-              <p style={{ fontSize: "12px" }}>Located here</p>
-            </div>
-          </div>
-          <br></br>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              flexWrap: "wrap",
-              gap: "4px",
-            }}
-          >
-            <img src={hospital} alt="imageNotFound" style={{ width: "90px" }} />
-            <div>
-              <h6> Hero Hospital</h6>
-              <p style={{ fontSize: "12px" }}>Located here</p>
-            </div>
-          </div>
-          <br></br>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              flexWrap: "wrap",
-              gap: "4px",
-            }}
-          >
-            <img src={hospital} alt="imageNotFound" style={{ width: "80px" }} />
-            <div>
-              <h6> Hero Hospital</h6>
-              <p style={{ fontSize: "12px" }}>Located here</p>
-            </div>
-          </div>
-        </div>
-        <div className="hosp-footer-block">
-          <h5>Twitter Feed</h5>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              flexWrap: "wrap",
-              gap: "5px",
-            }}
-          >
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                flexWrap: "wrap",
-                gap: "65px",
-                marginTop: "3px",
-                paddingLeft: "5px",
-              }}
-            >
-              <AiOutlineTwitter />
-              <AiOutlineTwitter />
-              <AiOutlineTwitter />
-            </div>
-            <div style={{ width: "260px" }}>
-              <section>
-                <p style={{ fontSize: "14px" }}>
-                  <span>@jaysonmountain</span>you can open a ticket by simply
-                  send us your purchase code in DM and we will check it out
-                </p>
-              </section>
-              <section>
-                <p style={{ fontSize: "14px" }}>
-                  <span>@jaysonmountain</span>you can open a ticket by simply
-                  send us your purchase code in DM and we will check it out
-                </p>
-              </section>
-              <section>
-                <p style={{ fontSize: "14px" }}>
-                  <span>@jaysonmountain</span>you can open a ticket by simply
-                  send us your purchase code in DM and we will check it out
-                </p>
-              </section>
-            </div>
-          </div>
-        </div>
-        <div className="hosp-footer-block">
+        {/* <div className="hosp-footer-block">
           <h5>Contact</h5>
           <input
             type={"text"}
             placeholder="Email here"
-            style={{ padding: "6px 103px", textAlign: "center" }}
+            style={{ padding: "6px 87px", textAlign: "center" }}
           />
           <br></br>
           <br></br>
@@ -176,7 +94,7 @@ function Footer() {
             name="w3review"
             placeholder="Message"
             rows="5"
-            cols="48"
+            cols="46"
           ></textarea>
           <br></br>
           <button
@@ -188,7 +106,7 @@ function Footer() {
           >
             Submit
           </button>
-        </div>
+        </div> */}
       </div>
     </>
   );

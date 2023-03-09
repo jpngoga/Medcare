@@ -1,0 +1,157 @@
+
+.Login-container{
+    background-color: #fff;
+}/* Extra small devices (phones, 600px and down) */
+.login-wrapper{
+   display: block;
+   margin-left: 30px;
+ 
+  
+}
+.Login-container{
+   text-align: center;
+   border:2px solid #43D5CB;
+   width:280px;
+   padding:60px 30px;
+   border-radius:16px;
+   box-shadow: 0 0 4px #43D5CB;
+   text-align: center;
+   
+}
+.login-h3{
+   font-weight: 350;
+   font-size: 18px;
+   text-align: left;
+   color: #43D5CB ;
+
+}
+.login-mid-container{
+   width: 280px ;
+}
+.login-border{
+   border-bottom: 1px solid gray;
+   font-size: 12px;
+   width:220px;
+  
+}
+.login-border label{
+   font-weight: 300 ;
+   font-size: 12px;
+   
+}
+.login-border .input{
+   border: "none";
+   margin-left: 10px;
+  
+}
+.login-btn-cont{
+  margin:0;
+   padding: 5px -4px;
+   border: none;
+   border-radius: 10px;
+   width: 220px;
+   text-align: center;
+
+}
+.login-btn-cont button{
+   background-color: #43D5CB;
+   padding: 5px;
+   border: none;
+   border-radius: 10px;
+   width: 220px;
+   text-align: center;
+   color: #fff;
+
+}
+.login-btn-cont2{
+   border: none;
+   border-radius: 10px;
+   background-color: lightgray;
+   width: 220px;
+   text-align: center;
+}
+.login-btn-cont2 button{
+ border-radius: 10px;
+ padding: 5px;
+}
+.login-bottom span{
+   font-size: 12px;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and ((min-width: 481px) and (max-width: 991x) ){
+    .login-wrapper{
+        display: block;
+      
+       
+     }
+     .Login-container{
+        text-align: center;
+        border:2px solid #43D5CB;
+        width:230px;
+        padding:60px 25px;
+        border-radius:16px;
+        box-shadow: 0 0 4px #43D5CB;
+        text-align: center;
+       
+     }
+     .login-h3{
+        font-weight: 350;
+        font-size: 15px;
+        text-align: left;
+        color: #43D5CB ;
+    
+     }
+     .login-mid-container{
+        width: 280px ;
+     }
+     .login-border{
+        border-bottom: 1px solid gray;
+        font-size: 12px;
+        width:180px;
+       
+     }
+     .login-border label{
+        font-weight: 300 ;
+        font-size: 12px;
+        
+     }
+     .login-border .input{
+        border: "none";
+        margin-left: 10px;
+       
+     }
+     .login-btn-cont{
+       margin:0;
+        padding: 5px -4px;
+        border: none;
+        border-radius: 10px;
+        width: 180px;
+        text-align: center;
+     
+    }
+     .login-btn-cont button{
+        background-color: #43D5CB;
+        padding: 5px;
+        border: none;
+        border-radius: 10px;
+        width:180px;
+        text-align: center;
+        color: #fff;
+     
+    }
+    .login-btn-cont2{
+        border: none;
+        border-radius: 10px;
+        background-color: lightgray;
+        width: 180px;
+        text-align: center;
+    }
+    .login-btn-cont2 button{
+      border-radius: 10px;
+      padding: 5px;
+    }
+    .login-bottom span{
+        font-size: 12px;
+    }
+}
+
