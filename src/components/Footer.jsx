@@ -32,24 +32,24 @@ function Footer() {
         </div>
         <div className="hosp-footer-block" style={{paddingLeft:50}} >
           <h5>Info</h5>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              flexWrap: "wrap",
-              gap: "5px",textAlign:"center"
+          <div className="info"
+            // style={{
+            //   display: "flex",
+            //   flexDirection: "row",
+            //   flexWrap: "wrap",
+            //   gap: "5px",textAlign:"center"
               
-            }}
+            // }}
           >
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                flexWrap: "wrap",
-                gap: "14px",
-                marginTop: "3px",
-                paddingLeft: "5px",
-              }}
+            <div className="info1"
+              // style={{
+              //   display: "flex",
+              //   flexDirection: "column",
+              //   flexWrap: "wrap",
+              //   gap: "14px",
+              //   marginTop: "3px",
+              //   paddingLeft: "5px",
+              // }}
             >
               <HiLocationMarker />
               <HiPhone />
@@ -65,15 +65,15 @@ function Footer() {
         </div>
         <div className="hosp-footer-block">
           <h5>Social Medial</h5>
-          <div
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                flexWrap: "wrap",
-                gap: "10px",
-                marginTop: "3px",
-                paddingLeft: "5px",
-              }}
+          <div className="social-medial"
+              // style={{
+              //   display: "flex",
+              //   flexDirection: "row",
+              //   flexWrap: "wrap",
+              //   gap: "10px",
+              //   marginTop: "3px",
+              //   paddingLeft: "5px",
+              // }}
             >
               <AiOutlineTwitter />
               <FaFacebookF />

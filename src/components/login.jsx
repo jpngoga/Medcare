@@ -34,7 +34,6 @@ const Login = () => {
                 style={{ border: "none", marginLeft: "30px" }}
               />
             </div>
-            <br />
             <div className="login-border">
               <label>Password</label>
               <input

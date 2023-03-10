@@ -1,0 +1,61 @@
+@media only screen (min-width: 431px){
+    
+}
+
+
+
+
+
+
+
+
+.hospital-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:170px;
+    align-items:center;
+    background-color: #070425;
+    color:#fff;
+    /* padding-left: 30px; */
+    padding: 20px 20px 20px 80px;
+    width: 100%;
+   
+  }
+  .hosp-footer-block{
+    width:300px;
+  
+    
+  }
+  .hosp-footer-block h4{
+   color:#42CCCF
+  }
+  .hosp-footer-block h5{
+   color:#42CCCF
+  }
+  .hosp-footer-block{
+    padding-left:50px;
+  }
+  .hosp-footer-block .info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    text-align:center;
+  }
+  .info1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 3px;
+    padding-left: 5px;
+  }
+  .social-medial{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 3px;
+    padding-left: 5px;
+  }

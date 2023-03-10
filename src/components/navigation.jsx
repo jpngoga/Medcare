@@ -3,7 +3,6 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import {BsPersonCircle} from "react-icons/bs"
 
-
 export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -16,13 +15,7 @@ export const Navigation = () => {
       <button className="toggle-button" onClick={handleToggle}>
         {isOpen ? <FaTimes /> : <FaBars />}
       </button>
-      <br></br>
-      <br></br>
-      <div className="health-savy-header" style={{ textAlign:"left", position:"absolute", marginRight:"1180px",marginTop:"35px"
-       }}>
-      <h5 style={{ color: " #43D5CB", }}>Health Savy</h5>
-
-      </div>
+      <h5 style={{ color: " #43D5CB" }}>Health Savy</h5>
       <ul className={`menu ${isOpen ? "open" : ""}`}>
         <NavLink to="/">
           <li>
@@ -51,7 +44,7 @@ export const Navigation = () => {
         </NavLink>
         <NavLink to="/profile">
           <li>
-            <a href="/"><BsPersonCircle style={{color:"#43D5CB"}}/></a>
+            <a href="/"><BsPersonCircle/></a>
           </li>
         </NavLink>
       </ul>

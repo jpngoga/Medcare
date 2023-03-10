@@ -1,6 +1,7 @@
 
 .Login-container{
     background-color: #fff;
+    text-align: left;
 }/* Extra small devices (phones, 600px and down) */
 .login-wrapper{
    display: block;
@@ -9,13 +10,13 @@
   
 }
 .Login-container{
-   text-align: center;
+   
    border:2px solid #43D5CB;
-   width:280px;
-   padding:60px 30px;
+   width:300px;
+   padding:60px 38px;
    border-radius:16px;
    box-shadow: 0 0 4px #43D5CB;
-   text-align: center;
+   
    
 }
 .login-h3{
@@ -41,7 +42,7 @@
 }
 .login-border .input{
    border: "none";
-   margin-left: 10px;
+   width: 100px;
   
 }
 .login-btn-cont{
