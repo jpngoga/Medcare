@@ -39,7 +39,7 @@ const Login = () => {
               <input
                 className="input"
                 type={"password"}
-                placeholder="Name"
+                placeholder="******"
                 style={{ border: "none", marginLeft: "20px" }}
               />
             </div>

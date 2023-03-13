@@ -37,24 +37,29 @@ function Create() {
             </div>
             
             <div className="create-border">
-              <label style={{ fontWeight: "300", paddingRight:"10px" }}>Password</label>
+              <label
+              style={{marginRight:"5px"}}>Password</label>
+              
               <input
                 type={"password"}
                 placeholder="******"
-                style={{ border: "none",  }}
+                style={{ border: "none", width:"150px" }}
               />
+            
+            </div>
+            <div className="create-border">
+              <label
+              style={{marginRight:"5px"}}>Password</label>
+              
+              <input
+                type={"password"}
+                placeholder="******"
+                style={{ border: "none", width:"150px" }}
+              />
+            
             </div>
           
-            <div className="create-border">
-              <label style={{ fontWeight: "300",lineHeight:"-2px",  paddingRight:"14px"  }}>
-                Password
-              </label>
-              <input
-                type={"password"}
-                placeholder="******"
-                style={{ border: "none", lineHeight:0  }}
-              />
-            </div>
+           
           </div>
           <br></br>
           <div
@@ -79,7 +84,7 @@ function Create() {
          
           
           <button className="button"
-          style={{backgroundColor:"lightgray", border:"none"}}>
+          style={{backgroundColor:"lightgray", border:"none", fontWeight:"400"}}>
               
             <BsGoogle style={{ color: "red",marginRight:"4px" }} />
                Sign up with Google
@@ -87,9 +92,9 @@ function Create() {
           </div>
           <br></br>
           <div>
-            <p style={{ textAlign: "left", }}>
+            <p style={{ textAlign: "left", fontSize:"12px" }}>
               if you already have an account?
-              <span style={{ fontWeigh: "bold",  }}>
+              <span style={{ fontWeight: "300", fontSize:"12px"  }}>
                 {" "}
                 <NavLink to="/profile/login">Login Here</NavLink>
               </span>

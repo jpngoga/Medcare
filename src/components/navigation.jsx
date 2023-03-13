@@ -3,6 +3,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import {BsPersonCircle} from "react-icons/bs"
 
+
 export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 

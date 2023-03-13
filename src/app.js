@@ -5,10 +5,6 @@ import { Navigation } from "./components/navigation.jsx";
 import Landing from "./components/landing";
 import { Route, Routes } from "react-router-dom";
 import "animate.css";
-import AppointmentsPage from "./components/appointmentsPage";
-import AppointmentBooking from "./components/appointmentBooking";
-import RequestAppointment from "./components/requestAppointment";
-
 
 import Create from "./components/create.jsx";
 import Pharmacy from "./components/pharmacy.jsx";
@@ -17,6 +13,12 @@ import Nursary from "./components/nursary";
 import Appointments from "./components/appointments";
 import Profile from "./components/profile";
 import Login from "./components/login";
+import Log from "./components/log";
+import AppointmentsPage from "./components/appointmentsPage";
+import AppointmentBooking from "./components/appointmentBooking";
+import RequestAppointment from "./components/requestAppointment";
+import MedicineInfo from "./components/medicineInfo";
+
 const App = () => {
   return (
     <>
@@ -27,10 +29,12 @@ const App = () => {
         <Route path="/hospital" element={<Hospital />} />
         <Route path="/nursary" element={<Nursary />} />
         <Route path="/appointments" element={<Appointments />} />
+        <Route path="/medicineInfo" element={<MedicineInfo />} />
         <Route path="/appointmentsPage" element={<AppointmentsPage />} />
         <Route path="/requestAppointment" element={<RequestAppointment />} />
         <Route path="/appointmentBooking" element={<AppointmentBooking />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/log" element={<Log />} />
         <Route path="/profile/login" element={<Login />} />
       </Routes>
     </>

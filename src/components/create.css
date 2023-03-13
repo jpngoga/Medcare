@@ -1,18 +1,20 @@
 .create-container{
     background-color: #fff;
     text-align: left;
+    height: 34rem;
+    
 }/* Extra small devices (phones, 600px and down) */
 .create-wrapper{
    display: block;
-   margin-left: 30px;
-   height: 600px;
+   margin-left: 34rem;
+   margin-top: 12px;
   
 }
 .create-container{
    
    border:2px solid #43D5CB;
-   width:300px;
-   padding:60px 38px;
+   width:18.75rem;
+   padding:3.75rem 2.5rem;
    border-radius:16px;
    box-shadow: 0 0 4px #43D5CB;
    
@@ -26,12 +28,12 @@
 
 }
 .create-mid-container{
-   width: 280px ;
+   width: 17.5rem ;
 }
 .create-border{
    border-bottom: 1px solid gray;
    font-size: 12px;
-   width:220px;
+   width:13.75rem;
   
 }
  label{
@@ -43,7 +45,7 @@
 }
 .create-border input{
    border: "none";
-   width: 120px;
+   width: 8.5rem;
    outline: none;
   
 }
@@ -52,7 +54,7 @@
    padding: 5px -4px;
    border: none;
    border-radius: 10px;
-   width: 220px;
+   width: 13.75rem;
    text-align: center;
 
 }
@@ -61,7 +63,7 @@
    padding: 5px;
    border: none;
    border-radius: 10px;
-   width: 220px;
+   width: 13.75rem;
    text-align: center;
    color: #fff;
 
@@ -70,7 +72,7 @@
    border: none;
    border-radius: 10px;
    background-color: lightgray;
-   width: 220px;
+   width: 13.75rem;
    text-align: center;
 }
 .create-btn-cont2 button{

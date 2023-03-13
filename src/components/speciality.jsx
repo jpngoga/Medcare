@@ -25,7 +25,7 @@ const Speciality = () => {
               image="https://www.kauveryhospital.com/doctorimage/recent/salem/Dr_P_V_Dhanapal.jpg"
             />
             <DoctorNurseCards
-              name="Dr.Kwizera Eric"
+              name="Dr.Eric Kwizera"
               field="Dermatologist"
               image="https://familydoctor.org/wp-content/uploads/2018/02/41808433_l.jpg"
             />

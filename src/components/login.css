@@ -2,19 +2,21 @@
 .Login-container{
     background-color: #fff;
     text-align: left;
+    
 }/* Extra small devices (phones, 600px and down) */
 .login-wrapper{
-   display: block;
-   margin-left: 30px;
+   display: flex;
+   margin-left: 34rem;
+   
  
   
 }
 .Login-container{
-   
+
    border:2px solid #43D5CB;
-   width:300px;
-   padding:60px 38px;
-   border-radius:16px;
+   width: 18.75rem;
+   padding:3.75rem 2.5rem;
+   border-radius:1rem;
    box-shadow: 0 0 4px #43D5CB;
    
    
@@ -27,12 +29,12 @@
 
 }
 .login-mid-container{
-   width: 280px ;
+   width: 17.5rem ;
 }
 .login-border{
    border-bottom: 1px solid gray;
    font-size: 12px;
-   width:220px;
+   width: 16.75em;;
   
 }
 .login-border label{
@@ -42,7 +44,7 @@
 }
 .login-border .input{
    border: "none";
-   width: 100px;
+   width: 6.25rem;
   
 }
 .login-btn-cont{
@@ -50,7 +52,7 @@
    padding: 5px -4px;
    border: none;
    border-radius: 10px;
-   width: 220px;
+   width: 13.75rem;
    text-align: center;
 
 }
@@ -59,7 +61,7 @@
    padding: 5px;
    border: none;
    border-radius: 10px;
-   width: 220px;
+   width: 13.75rem;
    text-align: center;
    color: #fff;
 
@@ -68,7 +70,7 @@
    border: none;
    border-radius: 10px;
    background-color: lightgray;
-   width: 220px;
+   width: 13.75rem;
    text-align: center;
 }
 .login-btn-cont2 button{
@@ -88,7 +90,7 @@
      .Login-container{
         text-align: center;
         border:2px solid #43D5CB;
-        width:230px;
+        width:14.375rem;
         padding:60px 25px;
         border-radius:16px;
         box-shadow: 0 0 4px #43D5CB;
@@ -103,7 +105,7 @@
     
      }
      .login-mid-container{
-        width: 280px ;
+        width: 17,5rem ;
      }
      .login-border{
         border-bottom: 1px solid gray;
@@ -126,7 +128,7 @@
         padding: 5px -4px;
         border: none;
         border-radius: 10px;
-        width: 180px;
+        width: 11.25rem;
         text-align: center;
      
     }
@@ -135,7 +137,7 @@
         padding: 5px;
         border: none;
         border-radius: 10px;
-        width:180px;
+        width:11.25rem;
         text-align: center;
         color: #fff;
      
@@ -144,7 +146,7 @@
         border: none;
         border-radius: 10px;
         background-color: lightgray;
-        width: 180px;
+        width: 11.25rem;
         text-align: center;
     }
     .login-btn-cont2 button{
